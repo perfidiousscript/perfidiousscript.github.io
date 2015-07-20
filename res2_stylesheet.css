@@ -1,0 +1,31 @@
+.section table {
+	border:0; 
+	style: width:100%
+}
+
+.section table tr {
+	padding: 10px 0px 10px 0px;
+	}
+
+h1 {
+	border: 2px solid black;
+	padding: 7px;
+    border-radius: 8px;
+}
+
+.section h1 {
+	font-family: Times, serif;
+}
+
+* {
+	color:#f3f010;
+	background-color: #1b1b0e;
+}
+
+#contact {
+    text-align: center;
+}
+
+.active {
+    background-color:#235385;
+}

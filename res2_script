@@ -1,0 +1,30 @@
+$(document).ready(function(){
+	$('h1').hover(
+    function(){
+    $(this).addClass('active');
+    },
+    function(){
+    $(this).removeClass('active');    
+    }
+  );
+	$('#skills-body').hide();
+	$('#skills').click(function(){
+		$('#skills-body').slideToggle()
+	});
+	$('#work-body').hide();
+	$('#work').click(function(){
+		$('#work-body').slideToggle()
+	});
+	$('#school-body').hide();
+	$('#school').click(function(){
+		$('#school-body').slideToggle()
+	});
+	$('#volunteer-body').hide();
+	$('#volunteer').click(function(){
+		$('#volunteer-body').slideToggle()
+	});
+	$('#refs-body').hide();
+	$('#refs').click(function(){
+		$('#refs-body').slideToggle()
+	});
+});
