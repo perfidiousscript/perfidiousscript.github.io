@@ -1,11 +1,13 @@
 .section table {
 	border:0; 
-	style: width:100%
+	width:100%;
+	padding: 5px;
 }
 
-.section table tr {
-	padding: 10px 0px 10px 0px;
-	}
+
+table tr td {
+	padding: 3px;
+}
 
 h1 {
 	border: 2px solid black;
@@ -27,5 +29,10 @@ h1 {
 }
 
 .active {
-    background-color:#235385;
+    background-color:#111112;
+}
+
+h2 {
+	font-size: 52px;
+	font-style: oblique;
 }
